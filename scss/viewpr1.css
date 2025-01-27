@@ -1,0 +1,40 @@
+/* Primary button style */
+
+.btn-custom-primary {
+    color: #fff;
+    background-color: #007bff; /* Blue background */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+/* Success button style */
+.btn-custom-success {
+    color: #fff;
+    background-color: #28a745; /* Green background */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effects */
+.btn-custom-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.btn-custom-success:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Responsive behavior */
+@media (max-width: 767px) {
+    .btn-custom-primary, .btn-custom-success {
+        padding: 8px 16px; /* Slightly smaller padding for mobile */
+    }
+}
